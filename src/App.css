@@ -1,38 +1,87 @@
 .App {
   text-align: center;
+  width:98%;
+  height:98%;
+  margin:1%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  
+  background-color: darkslateblue;
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.links{
+  margin-left: auto;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+  color:darkblue;
+  margin-left: 0px 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link{
+  color:gold;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.link:hover{
+  color: blue;
+}
+.hearderStyle{
+  
+  background-color: gold;
+}
+.homeStyle{
+  
+  max-height: 80%;
+  overflow-y:scroll ;
+}
+.homeStyle{
+  background-color: blueviolet;
+  height:80%;
+  margin:1%;
+  overflow-y: scroll;
+}
+.homeTableStyle{
+  
+  display: inline-block;
+  margin:1%;
+  width: 60%;
+  overflow-y: scroll;
+  height:90%;
+}
+.homeFormStyle{
+ 
+  display: inline-block;
+  margin:1%;
+  width: 30%;
+  height:90%;
+  overflow-y: scroll;
+}
+.footerStyle{
+ 
+  background-color: #61dafb;
+}
+.resetButtonStyle{
+  margin: '5px';
+  padding: '3px';
+  font-size: '25px';
+  background-color: #61dafb;
+}
+.submitButtonStyle{
+  margin: '5px';
+  padding: '3px';
+  font-size: '25px';
+  background-color: chocolate;
+  border-radius: '8px';
+}
+.updateButtonStyle{
+  margin: '5px';
+  padding: '3px';
+  font-size: '10px';
+  background-color: darkblue;
+  border-radius: '8px';
 }
