@@ -2,50 +2,47 @@
   text-align: center;
   width:98%;
   height:98%;
-  margin:1%;
+  margin:2%;
 }
-.navbar{
-  
-  background-color: darkslateblue;
+.navbar {
+  text-align: center;
+  background-color: #8b0f7b;
   max-width: 100%;
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.links{
+.links {
   margin-left: auto;
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 25px;
 }
-h1{
-  color:darkblue;
+h1 {
+  color:rgb(10, 13, 172);
   margin-left: 0px 20px;
 }
-.link{
+.link {
   color:gold;
-  text-decoration: none;
+  text-align: center;
   margin-right: 20px;
 }
-.link:hover{
+.link:hover {
   color: blue;
 }
-.hearderStyle{
-  
-  background-color: gold;
+.hearderStyle {
+  background-color: rgb(16, 199, 175);
 }
-.homeStyle{
-  
-  max-height: 80%;
-  overflow-y:scroll ;
+.homeStyle {
+ overflow-y:scroll ;
 }
-.homeStyle{
+.homeStyle {
   background-color: blueviolet;
   height:80%;
   margin:1%;
   overflow-y: scroll;
 }
-.homeTableStyle{
+.homeTableStyle {
   
   display: inline-block;
   margin:1%;
@@ -53,7 +50,7 @@ h1{
   overflow-y: scroll;
   height:90%;
 }
-.homeFormStyle{
+.homeFormStyle {
  
   display: inline-block;
   margin:1%;
@@ -61,27 +58,48 @@ h1{
   height:90%;
   overflow-y: scroll;
 }
-.footerStyle{
+.footerStyle {
  
   background-color: #61dafb;
 }
-.resetButtonStyle{
+.resetButtonStyle {
   margin: '5px';
   padding: '3px';
   font-size: '25px';
   background-color: #61dafb;
 }
-.submitButtonStyle{
+.updateButtonStyle {
+  margin: '5px';
+  padding: '3px';
+  font-size: '10px';
+  background-color: darkblue;
+  border-radius: '8px';
+}
+.submitButtonStyle {
   margin: '5px';
   padding: '3px';
   font-size: '25px';
   background-color: chocolate;
   border-radius: '8px';
 }
-.updateButtonStyle{
-  margin: '5px';
-  padding: '3px';
-  font-size: '10px';
+.homeFormStyle label{
+  font-size: 20px;
+  color:blueviolet;
+  margin-bottom: 30px;
+}
+.homeFormStyle input, .createQuery textarea, .createQuery select{
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  box-sizing:border-box;
+  display: block;
+}
+.homeFormStyle button{
   background-color: darkblue;
-  border-radius: '8px';
+  color:darkolivegreen;
+  border:0;
+  padding:8px;
+  border-radius: 8px;
+  cursor:pointer;
 }

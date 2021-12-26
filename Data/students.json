@@ -1,0 +1,39 @@
+{"students":[
+    {
+    "id":"1232",
+    "name": "Amar",
+    "marks":"90",
+    "mobile": "87757565884"
+},
+{
+    "id":"1233",
+    "name": "Ajay",
+    "marks":"85",
+    "mobile": "8775705884"
+},
+{
+    "id":"1234",
+    "name": "Vijay",
+    "marks":"80",
+    "mobile": "8775756500"
+},
+    {
+    "id":"1235",
+    "name": "Ajmer",
+    "marks":"86",
+    "mobile": "87757005884"
+},
+{
+    "id":"1236",
+    "name": "Vinod",
+    "marks":"85",
+    "mobile": "8775700084"
+},
+{
+    "id":"1237",
+    "name": "Vinay",
+    "marks":"87",
+    "mobile": "8005756500"
+}
+]
+}
