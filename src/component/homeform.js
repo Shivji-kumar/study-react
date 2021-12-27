@@ -86,6 +86,17 @@ function HomeForm(props) {
                 <div className="homeFormStyle">
                     <h1>Student Details:</h1>
                     <div style={{minHeight: "350px"}}>
+                    <lebel>Id:</lebel>
+                        <input
+                        type="text"
+                        id="studentId"
+                        name="id"
+                        value={student.id}
+                        onChange={(event)=>{
+                            changeHandler(event);
+                        }}/>
+
+
                         <lebel>Name:</lebel>
                         <input 
                         type="text"
@@ -119,21 +130,12 @@ function HomeForm(props) {
                         type="text"
                         id="studentMarks"
                         name="marks"
-                        value={student.Marks}
+                        value={student.marks}
                         onChange={(event)=>{
                             changeHandler(event);
                         }}/>
 
-                       <lebel>Id:</lebel>
-                        <input
-                        type="text"
-                        id="studentId"
-                        name="id"
-                        value={student.id}
-                        onChange={(event)=>{
-                            changeHandler(event);
-                        }}/>
-
+                    
                     </div><br/><br/>
                     <div style={{mingHeight: "50px", padding: "20px"}}>
                         <input 

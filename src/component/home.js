@@ -7,16 +7,16 @@ import {useState} from "react";
 function Home() {
     const [edit, setEdit] = useState(false);
     var init_student ={
+        id: "",
         name: "",
         email: "",
-        id: "",
         mobile: "",
         marks: "",
     };
     const [editStudent, setEditStudent] = useState({
+        id: "",
         name: "",
         email: "",
-        id: "",
         mobile: "",
         marks: "",
     });

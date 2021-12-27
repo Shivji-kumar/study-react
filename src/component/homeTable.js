@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./students";
+import Student from "./student";
 import {useState, useEffect} from "react";
 
 function HomeTable(props) {
@@ -33,12 +33,11 @@ function HomeTable(props) {
             {students.map((student)=>{
                 return(
                     <student
-                    name={student.name}
+                    key={student.id}
+                    id={student.id}name={student.name}
                     email={student.email}
                     marks={student.marks}
                     mobile={student.mobile}
-                    key={student.id}
-                    id={student.id}
                     deleteHandler={deleteHandler}
                     editHandler ={editHandler}/>
                 );
